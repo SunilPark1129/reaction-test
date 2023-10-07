@@ -72,13 +72,26 @@ export default function Start() {
   if (newGame)
     return (
       <div
-        className={`w-full h-full relative cursor-pointer rounded-md select-none ${
+        className={`w-full h-full relative cursor-pointer rounded-md select-none hightlight-off ${
           !timeToPress && times.length !== 0 ? "bg-red-400" : "bg-green-400"
         }`}
         onClick={colorClickHandler}
       >
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl pointer-events-none">
-          {timeToPress ? "PRESS" : "READY"}
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl lg:text-4xl pointer-events-none whitespace-nowrap">
+          {timeToPress ? (
+            <div>
+              <p>PRESS</p>
+            </div>
+          ) : (
+            <div className="relative flex flex-col items-center">
+              <p>DO NOT PRESS</p>
+              {record.length !== 0 ? (
+                <p className="absolute top-full">
+                  ({record[record.length - 1]} ms)
+                </p>
+              ) : null}
+            </div>
+          )}
         </div>
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-4">
           {new Array(GAME_ROUND).fill().map((_, idx) => (
