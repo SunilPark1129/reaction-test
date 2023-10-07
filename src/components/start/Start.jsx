@@ -75,7 +75,7 @@ export default function Start() {
         className={`w-full h-full relative cursor-pointer rounded-md select-none ${
           !timeToPress && times.length !== 0 ? "bg-red-400" : "bg-green-400"
         }`}
-        onPointerEnter={colorClickHandler}
+        onClick={colorClickHandler}
       >
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl pointer-events-none">
           {timeToPress ? "PRESS" : "READY"}
