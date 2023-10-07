@@ -72,12 +72,12 @@ export default function Start() {
   if (newGame)
     return (
       <div
-        className={`w-full h-full relative cursor-pointer rounded-md ${
+        className={`w-full h-full relative cursor-pointer rounded-md select-none ${
           !timeToPress && times.length !== 0 ? "bg-red-400" : "bg-green-400"
         }`}
-        onClick={colorClickHandler}
+        onPointerEnter={colorClickHandler}
       >
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl pointer-events-none">
           {timeToPress ? "PRESS" : "READY"}
         </div>
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-4">
