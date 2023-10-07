@@ -26,7 +26,7 @@ function Intro() {
 
 export default function Main() {
   return (
-    <main className="h-screen flex justify-center items-center p-4 bg-slate-200 min-h-400 ">
+    <main className="h-screen flex justify-center items-center p-2 lg:p-4 bg-slate-200 min-h-400 ">
       <Intro />
     </main>
   );
