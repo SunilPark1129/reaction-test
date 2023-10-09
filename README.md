@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Reaction Speed Test
+![cover](https://github.com/SunilPark1129/reaction-test/assets/106734133/654f57e8-264b-4975-b8b8-b6f9fbdd4beb)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Go to website - [Link](https://sp-reaction-speed-test.netlify.app/)<br>
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+- This project is an app that helps memorize words.
 
-### `npm start`
+## Features
+> Follow steps to learn about how to use this app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Click start to start the reaction test game.<br>
+<img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/654f57e8-264b-4975-b8b8-b6f9fbdd4beb" width="600"/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Don't press anything when the screen is red.<br>
+<img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/e1433e30-19ee-498b-b68c-d5c46c674427" width="600"/><br/>
 
-### `npm test`
+3. When screen is green, now you need to press it soon as possible.<br>Because when it becomes green, it will save the current time by using ```const startedTime = Date.now()```.<br>Then when you press the green screen, it will now calculate the time you spent by ```Date.now() - startedTime```.<br>
+<img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/f94554e7-25f1-4f42-8ed3-e6553b9e9bf8" width="600"/><br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. If you click whilee screen is red, the game will end as a disqualification.<br>
+<img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/6959c1a3-c013-4c67-8b3f-1a6e3020adfb" width="600"/><br/>
 
-### `npm run build`
+5. After completing all tasks successfully, you can view your reaction time record.<br>
+<img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/1a08377e-287b-40a2-b537-e6c835de151e" width="600"/><br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+1. Clone the repo
+```
+git clone https://github.com/SunilPark1129/reaction-test.git
+```
+2. Install
+```
+npm i
+```
+2. run the website
+```
+npm start
+```
+[Link](https://sp-reaction-speed-test.netlify.app/)
 
-### `npm run eject`
+## Self-improvement
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- I have applied the newly learned CSS framework, Tailwind CSS, to this project.
+- I have furthered my knowledge on how to record and utilize Date method.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Status
+Completed
