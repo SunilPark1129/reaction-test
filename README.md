@@ -10,7 +10,7 @@ Go to website - [Link](https://sp-reaction-speed-test.netlify.app/)<br>
 ## Features
 > Follow steps to learn about how to use this app
 
-1. Click start to start the reaction test game.<br>
+1. Click start to begin the reaction test game.<br>
 <img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/32cc72a0-85df-4678-bdf1-0c4edba21c52" width="600"/><br/>
 
 2. Don't press anything when the screen is red.<br>
