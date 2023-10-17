@@ -16,10 +16,10 @@ Go to website - [Link](https://sp-reaction-speed-test.netlify.app/)<br>
 2. Don't press anything when the screen is red.<br>
 <img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/e1433e30-19ee-498b-b68c-d5c46c674427" width="600"/><br/>
 
-3. When screen is green, now you need to press it soon as possible.<br>Because when it becomes green, it will save the current time by using ```const startedTime = Date.now()```.<br>Then when you press the green screen, it will now calculate the time you spent by ```Date.now() - startedTime```.<br>
+3. When the screen turns green, now you need to press the screen as soon as possible.<br>When it becomes green, it will save the current time immediately by using ```const startedTime = Date.now()```.<br>Then once you press the green screen, it will calculate the time by using ```Date.now() - startedTime``` to find the reaction time.<br>
 <img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/f94554e7-25f1-4f42-8ed3-e6553b9e9bf8" width="600"/><br/>
 
-4. If you click whilee screen is red, the game will end as a disqualification.<br>
+4. If you click when the screen is red, the game will end as a disqualification.<br>
 <img src="https://github.com/SunilPark1129/reaction-test/assets/106734133/6959c1a3-c013-4c67-8b3f-1a6e3020adfb" width="600"/><br/>
 
 5. After completing all tasks successfully, you can view your reaction time record.<br>
